@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome to docker build image!"
+    return "Welcome using webhook!"
 
 @app.route('/how are you')
 def hello():
