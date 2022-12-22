@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome deployment!"
+    return "Welcome deployment through build config!"
 
 @app.route('/how are you')
 def hello():
