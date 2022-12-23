@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome deployment through web hook!"
+    return "Welcome openshift ci/cd!"
 
 @app.route('/how are you')
 def hello():
